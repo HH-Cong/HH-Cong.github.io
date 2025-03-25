@@ -1,328 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>HH's Homepage</title>
-        <style>
-            .w{
-                width: 1200px;
-                margin: auto;
-            }
-            a {
-                text-decoration: none;
-            }
-            .header{
-                height: 180px;
-                margin: 30px auto;
-            }
-            .logo{
-                float: left;
-                width: 180px;
-                height: 180px;
-            }
-            li{
-                list-style: none;
-            }
-            .nav{
-                float: left;
-                margin-left: auto;
-            }
-            .nav ul li {
-                float: left;
-                margin: 0 15px;
-            }
-            .nav ul li a {
-                display: block;
-                height: 42px;
-                padding: 0 10px;
-                line-height: 180px;
-                font-size: 22px;
-                color: #050505;
-                text-decoration: none;
-            }
-            .nav ul li a:hover{
-                border-bottom: 2px solid #00a4ff;
-                color: #00a4ff;
-            }
-            .user{
-                float: right;
-                line-height: 180px;
-                margin-right: 30px;
-                font-size: 22px;
-                color: rgb(0, 0, 0);
-            }
-            body{
-                background-color: #555555;
-                height: 1300px;
-            }
-            .banner{
-                height: 191px;
-                background-color: black;
-            }
-            .banner .w{
-                height: 420px;
-                background: url(./BH_accreting.png) no-repeat top center;
-            }
-            .footer{
-                height: 415px;
-            }
-            .footer .w{
-                padding-top: 300px;
-                text-align: center;
-            }
-            .box{
-                margin-top: 30px;
-            }
-            .box-hd {
-                height: 45px;
-            }
-            .box-hd h3 {
-                float: left;
-                margin-left: 45px;
-            }
-            .box-hd a {
-                float: right;
-                margin-right: 5px;
-            }
-            .box-bd {
-                height: 700px;
-                width: 1400px;
-            }
-            .box-bd ul li {
-                float: left;
-                width: 380px;
-                height: 600px;
-                background-color: #00a4ff;
-                margin-right: 15px;
-            }
-            .box-bd ul li img {
-                width: 100%;
-            }
-            .box-bd ul li h4 {
-                margin: 20px 20px 20px 25px;
-                height: 70px;
-            }
-            .box-bd ul li a:hover{
-                color: black;
-            }
-            .box-bd ul li h4{
-                height: 270px;
-            }
-            .box-bd ul li a:hover{
-                color: black;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haojie Hu's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background: #f4f4f4;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        h1, h2, h3 {
+            margin-bottom: 0.5rem;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Haojie Hu (胡豪杰)</h1>
+        <p>JSPS Fellow, University of Tsukuba</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
+        <a href="#events">Events & Talks</a>
+        <a href="#collaborators">Collaborators</a>
+    </nav>
 
-            .slides_show .swiper-container{
-                    width: 1300px;
-                    height: 600px;
-                }
-            .slides_show .swiper-slide{
-                    text-align: center;
-                    font-size: 18px;
-                    background: #fff;
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is Haojie Hu from Planet Earth. "Haojie" is my first name, it is written as "豪杰" in Chinese character, which means "a hero, a brave man". The pronunciation is like "How Jet" (with "t" silent). My family name is "Hu", with pronunciation like "who". In China, we have family name comes first, so it is written as "胡豪杰". You can just call me "Haojie [How Jet (with "t" silent)]" or just "Jie [Jet (with "t" silent)]".</p>
+        <p>Now I am a JSPS fellow, working with Prof. Ken Ohsuga at University of Tsukuba. My research interests focus on SuperMassive Black Holes (SMBHs). I am interested in the formation and evolution of SMBHs at high redshifts (z>6), and their co-evolution with host galaxies (the co-evolution scenario). The interplay between central SMBHs and their host galaxies especially in Active Galactic Nuclei (aka, AGN feeding and feedback), always fascinates me. I try to understand the growth pathway of seed BH to SMBHs at high redshifts via numerical simulations.</p>
+        <p><a href="path/to/your/cv.pdf">Check out my CV</a></p>
+    </section>
 
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: -webkit-flex;
-                    display: flex;
-                    flex-direction: column;
-                    -webkit-box-pack: center;
-                    -ms-flex-pack: center;
-                    -webkit-justify-content:center;
-                    justify-content: center;
-                    -webkit-box-align: center;
-                    -ms-flex-align: center;
-                    -webkit-align-items: center;
-                    align-items: center;
-                    transition: 300ms;
-                    transform: scale(0.8);
-                }
-                .slides_show .swiper-slide-active,
-                .swiper-slide-duplicate-active{
-                    transform: scale(1);
-                }
-                .slides_show .swiper-container .swiper-wrapper .swiper-slide img{
-                    width: 420px;
-                    height: 600px;
-                }
-                .banner2{
-                height: 420px;
-                background-color: rgb(0, 195, 255);
-                }
-                .banner2 .w{
-                height: 820px;
-                align-items: center;
-                }
-                .banner2 .w h2{
-                    text-align: center;
-                }
-                .banner2 .w p{
-                    font-size: larger;
-                    margin-left: 150px;
-                    margin-right: 150px;
-                    margin-top: 50px;
-                }
-        </style>
-        <link rel="stylesheet" href="./css/swiper.min.css">
-    </head>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Ph.D in Astrophysics, Peking University (2024)</li>
+            <li>Bachelor of Science in Applied Physics, East China University of Science and Technology (ECUST)</li>
+            <li>High School, Zhenhai High School (浙江省镇海中学)</li>
+        </ul>
+        
+        <h3>Other Education & Teaching Experience</h3>
+        <ul>
+            <li>CSST Summer School (2022)</li>
+            <li>Teaching Assistant, Stellar Structure and Evolution (2020-2021, 2023)</li>
+        </ul>
+    </section>
+    
+    <section id="research">
+        <h2>Research Interests</h2>
+        <p>SuperMassive Black Holes (SMBHs), BH accretion, Active Galactic Nuclei (AGN) feedback, co-evolution of SMBHs and host galaxies, quasars, high redshift galaxies, AGN outflow/wind/jet, numerical simulations (HD/RHD/RMHD)</p>
+        
+        <h3>Selected Publications</h3>
+        <ol>
+            <li>Qiu, Y. Hu, H. et al. Dynamics and Morphology of Cold Gas in Fast, Radiatively Cooling Outflows: Constraining AGN Energetics with Horseshoes. Astrophys. J. Lett. 917, L7 (2021).</li>
+            <li>Hu, H. et al. Signature of Supersonic Turbulence in Galaxy Clusters Revealed by AGN-driven Halpha Filaments. Astrophys. J. Lett. 929, L30 (2022).</li>
+            <li>Hu, H., Inayoshi, K., Haiman, Z., Quataert, E. & Kuiper, R. Long-term Evolution of Supercritical Black Hole Accretion with Outflows: A Subgrid Feedback Model for Cosmological Simulations. Astrophys. J. 934, 132 (2022).</li>
+            <li>Hu, H. et al. Supercritical Growth Pathway to Overmassive Black Holes at Cosmic Dawn: Coevolution with Massive Quasar Hosts. Astrophys. J. 935, 140 (2022).</li>
+        </ol>
+        
+        <h3>Research Highlights</h3>
+        <h4>High-z Quasars and the Formation of SMBHs</h4>
+        <p>Observations on high-z Quasars indicate the existence of 10^9~10^10 Solar Mass SMBHs at z ~ 6-7. It is challenging to grow such SMBHs by the limited 'Eddington accretion rate', even at 100% duty cycle. Two alternatives are proposed to explain the formation and evolution of these SMBHs: "Heavy Seed BHs" and "Rapid growth". I investigate the rapid growth of seed BHs via simulations.</p>
+        
+        <h4>Evolutionary Tracks of Heavy Seed BHs</h4>
+        <p>Heavy seed BHs (10^5 solar mass, seed at z=15), can always grow faster than host galaxies, reaching the overmassive region in the mass-mass diagram compared to local relations. We propose a subgrid feeding (and feedback) model for seed BHs at galactic centers. Such a subgrid model can facilitate the rapid growth of seed BHs at high-z universe, when the outflow strength is moderate (p ~ 0.5-0.7). For strong outflows (p>0.7), the rapid growth of light seed BHs are significantly suppressed.</p>
+       
+        <h4>AGN Feedback in Perseus Cluster</h4>
+        <p>The 1/2 slope of VSF for Halpha-traced cold gas filaments in Perseus can be well explained by the cold components of a supersonic hot outflow driven by AGN activities when it cools down radiatively after about 10-20 Myr. We reproduced varied morphologies of cold gas similar to the observed ones in Perseus (i.e., radial filaments, horseshoe filament, blueloop like structures) in simulations. The origin of these cold filaments also indicates the energetics of the AGN activities. The subsequent evolution of cold gas may also indicate the positive AGN feedback in a 10-20 Myr time delay.</p>
+    </section>
+    
+    <section id="events">  
+        <h2>Events & Talks</h2>
+        <ul>
+            <li>Contributed Talk at Nagoya City University (Mar. 4-8, 2025)</li>
+            <li>Contributed Talk at Kavli IPMU (Nov. 18-21, 2024)</li>
+            <li>Contributed talk @ Cospar in Busan (13-21, July, 2024)</li>
+            <li>Contributed talk @ First Star in NYC (20-23, May, 2024)</li>
+            <li>Contributed talk @ Galaxy formation in Hangzhou: Observation and Physics of AGN (10 Oct 2023)</li>
+            <li>Contributed talk @ East Asian AGN workshop (24 Sep. 2023)</li>
+            <li>Poster @ European Astronomical society 2023 (EAS2023) (14 July 2023)</li>
+            <li>Talk @ "Astrophysical BHs: a rapidly moving field" (23 June 2023)</li>
+            <li>Talks @ Zhejiang University, Shanghai Astronomical Observatory, Tsung-Dao Lee Institute (May 2023)</li>
+            <li>CSST-Galaxy-AGN discussion on "Feedback in simulations" @Peking University (4th April 2023)</li>
+            <li>Lunch seminar at Tsinghua University (31st Mar 2023)</li>
+            <li>IAU conference (2022-11-21~23)</li>
+            <li>Computational Astrophysics Seminar at University of Duisburg-Essen (2022-10-27)</li>
+            <li>East Asian Numerical Astrophysical meeting (2022-09-26----2022-09-30)</li>
+            <li>Origin, growth and feedback of black holes in dwarf galaxies (2022-09-12----2022-09-16)</li>
+            <li>Galaxy-IGM workshop 2022(2022-08-08----2022-08-12)</li>
+            <li>EAS 2022: European Astronomical Society Annual Meeting (2022-06-27----2022-07-01)</li>
+            <li>Lunch seminar at IPMU (2022-06-14)</li>
+            <li>2021 The first KIAA forum on gas in galaxies for early career scientist (2021-11-01----2021-11-05)</li>
+            <li>East-Asia AGN workshop in Chongqing University (2021-10-11----2021-10-13)</li>
+            <li>Visit to Tokyo University & Nagoya University (2019-11-04----2019-11-14)</li>
+        </ul>
+    </section>
+    
+    <section id="collaborators">
+        <h2>Collaborators</h2>
+        <h3>JSPS collaboration</h3>
+        <p>Prof. Ken Ohsuga (CCS, University of Tsukuba)</p>
+        
+        <h3>Ph.D supervisor</h3>
+        <p>Prof. Kohei Inayoshi (KIAA, Peking University)</p>
+        
+        <h3>International Collaborations</h3>
+        <p>Prof. Zoltan Haiman (DoA, Columbia University/Institute of Science and Technoogy Austria)</p>
+        <p>Dr. Yu Qiu (Zhejiang University)</p>
+        <p>Prof. Luis C. Ho (KIAA, Peking University)</p>
+        <p>Prof. Eliot Quataert (Princeton University)</p> 
+        <p>Prof. Rolf Kuiper (Fakultät für Physik, Universität Duisburg-Essen)</p> 
+        <p>Dr. Wenxiu Li (Peking University)</p>
+        
+    </section>
 
-    <body>
-        <div class="header w">
-            <div class="logo">
-                <a href="index.html" target="_blank"><img src="img/HHlogo.jpg" height="180px" alt="logo"></a>
-            </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Edu.html">Education</a></li>
-                    <li><a href="Res.html">Research</a></li>
-                    <li><a href="Eve.html">Events & Gallery</a></li>
-                    <li><a href="Coll.html">Collaborators</a></li>
-                </ul>
-            </div>
-            <div>
-                <div class="user">
-                    <img src="HH.png" height="120px" alt="HH">
-                    Haojie Hu
-                </div>
-            </div>
-        </div>
-
-        <div class="banner">
-            <div class="w">
-            </div>
-        </div>
-
-        <div class="banner2">
-            <div class="w">
-                <h2>About Me (Haojie Hu; 胡 豪杰)(<a href="./files/HH_CV_Resume.pdf">Check out my CV</a>)</h2>
-                <p>
-                    This is Haojie Hu from Planet Earth. "Haojie" is my first name, it is written as "豪杰" in Chinese character, 
-                    which means "a hero, a brave man". The pronunciation is like "How Jet(with "t" silient)". My family name is "Hu", 
-                    with pronunciation like "who". In China, we have family name comes first, so it is wirtten as "胡豪杰".
-                    You can just call me "Haojie [How Jet(with "t" silient)]" or just "Jie [Jet(with "t" silient)]". 
-                    <br>
-                    <br>
-                    Now I am a JSPS fellow, working with Prof. Ken Ohsuga at University of Tsukuba.  
-                    My research interests focus on SuperMassive Black Holes (SMBHs). I am interested in the formation and evolution of 
-                    SMBHs at high redshifts (z>6), and their co-evolution with host galaxies (the co-evolution scenario). The interplay 
-                    between central SMBHs and their host galaxies especially in Active Galactic Nuclei (aka, AGN feeding and feedback ), 
-                    always facinates me. I try to understand the growth pathway of seed BH to SMBHs at high redshifts via numerical 
-                    simulations. The ongoing James Webb Space Telescope (JWST) is gradually revealing the secrets of Universe at high redshift.
-                    Meanwhile, numerical simulations provide unique approaches to help us pridict and understand the mysterious SMBHs 
-                    at high redshift universe. You can find out more details in <a href="Res.html">Resaerch</a> panel.
-                    <br>
-                    <br>
-                </p>
-            </div>
-        </div>
-
-
-
-        <div class="slides_show">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./HH.png" alt="HH.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./campus.png" alt="campus.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="MS0735_2.png" alt="MS0735_2.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="pic1.png" alt="pic1.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="pic2.png" alt="pic2.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="pic3.png" alt="pic3.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="pic4.png" alt="pic4.png">
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </div>
-
-
-
-        <div class="box w">
-            <div class="box-hd">
-                <h3>Highlights</h3>
-                <a href="Res.html"><h3>More</h3></a>
-            </div>
-
-            <div class="box-bd">
-                <ul>
-                    <li>
-                        <img src="./img/fig1.png"  alt="res">
-                        <h4>
-                            This Figure summarizes the observations on high-z Quasars, which indicating the existence 
-                            of 10^9~10^10 Solar Mass SMBHs at z ~ 6-7. It is chanllenge to grow such SMBHs by the 
-                            limited 'Eddington accretion rate', even at 100% duty cycle. Two alternatives are proposed to 
-                            explain the formation and evolution of these SMBHs. The first scenario is "Heavy Seed BHs". 
-                            In this scenario, heavy seed BHs can form by direct collapse of massive cloud under some 
-                            certain conditions (so called DCBH). The other scenario is "Rapid growth". In this case, the 
-                            seed BHs (possibly stellar mass BHs) can grow at Super-Eddington rate. I investegate the rapid 
-                            growth of seed BHs via simulations. <a href="Res.html">Clikc to find out More</a>. 
-                        </h4>
-                    </li>
-                    <li>
-                        <img src="./img/fig2.png"  alt="res">
-                        <h4>
-                            This figure shows evolutionary tracks of heavy Seed BHs in BH mass-galaxy mass diagram. The heavy 
-                            seed BHs (10^5 solar mass, seed at z=15), can always grow faster than host galaxies, reaching the 
-                            overmassive region in the mass-mass diagram compared to local relations. In this model, we propose 
-                            a subgrid feeding (and feedback) model for seed BHs at galatic centers. Such a subgrid model can 
-                            facilitate the rapid growth of seed BHs at high-z universe, when the outflow strength is moderate (p ~ 0.5-0.7). 
-                            For strong outflows (p>0.7), the rapid growth of light seed BHs are significantly suppressed. 
-                            <a href="Res.html">Clikc to find out More</a>. 
-                        </h4>
-                    </li>
-                    <li>
-                        <img src="./img/fig3.png"  alt="res">
-                        <h4>
-                            This Figure shows the observations on Perseus and corresponding Velocity Structure Function (VSF) for 
-                            each filaments. We find that the 1/2 slope of VSF for Halpha-traced cold gas filaments in Perseus can 
-                            be well explained by the cold components of a supersonic hot outflow driven by AGN activities when it 
-                            cools down radiatively after about 10-20 Myr. We reproduced varied morphologies of cold gas similar to 
-                            the observed ones in Perseus (i.e., radial filaments, horseshoe filament, blueloop like structures) in 
-                            simulations. The origin of these cold filaments also indicating the energetics of the AGN activities. 
-                            The subsequent evolution of cold gas may also indicate the positive AGN feedback in a 10-20 Myr time delay.
-                            <a href="Res.html">Clikc to find out More</a>. 
-                        </h4>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="footer">
-            <div class="w">
-                Discuss with me: huhaojie@ccs.tsukuba.ac.jp
-                <br>
-                <br>
-                @copyright: All Rights Reserved.
-            </div>
-        </div>
-        <script src="./js/swiper.min.js"></script>
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                slidesPerView: 3,
-                spaceBetween: 30,
-                centeredSlides: true,
-                pagination: '.swiper-pagination',
-                nextButton: '.swiper-button-next',
-                prevButton: '.swiper-button-prev',
-                paginationClickable: true,
-                spaceBetween: 30,
-                loop: true
-            });
-        </script>
-    </body>
+    <footer>
+        <p>Discuss with me: <a href="mailto:huhaojie@ccs.tsukuba.ac.jp">huhaojie@ccs.tsukuba.ac.jp</a></p>
+        <p>@copyright: All Rights Reserved.</p>
+    </footer>
+</body>
 </html>
