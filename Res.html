@@ -2,39 +2,222 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
+        <title>HH's Homepage</title>
         <style>
-            .box{
-                width: 600px;
-                height: 1200px;
-                margin: auto;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                text-align: center;
-            }
             .w{
                 width: 1200px;
                 margin: auto;
             }
+            a {
+                text-decoration: none;
+            }
             .header{
-                height: 80px;
-                background-color: white;
+                height: 180px;
                 margin: 30px auto;
             }
             .logo{
-                width: 80px;
-                height: 80px;
-                background-color: purple;
+                float: left;
+                width: 180px;
+                height: 180px;
+            }
+            li{
+                list-style: none;
+            }
+            .nav{
+                float: left;
+                margin-left: auto;
+            }
+            .nav ul li {
+                float: left;
+                margin: 0 15px;
+            }
+            .nav ul li a {
+                display: block;
+                height: 42px;
+                padding: 0 10px;
+                line-height: 180px;
+                font-size: 22px;
+                color: #050505;
+                text-decoration: none;
+            }
+            .nav ul li a:hover{
+                border-bottom: 2px solid #00a4ff;
+                color: #00a4ff;
+            }
+            .user{
+                float: right;
+                line-height: 180px;
+                margin-right: 30px;
+                font-size: 22px;
+                color: rgb(0, 0, 0);
+            }
+            body{
+                background-color: #555555;
+                height: 1300px;
+            }
+            .banner{
+                height: 191px;
+                background-color: black;
+            }
+            .banner .w{
+                height: 420px;
+                background: url(./BH_accreting.png) no-repeat top center;
+            }
+            .footer{
+                height: 415px;
+            }
+            .footer .w{
+                padding-top: 300px;
+                text-align: center;
+            }
+            .box{
+                margin-top: 30px;
+            }
+            .box-hd {
+                height: 45px;
+            }
+            .box-hd h3 {
+                float: left;
+                margin-left: 45px;
+            }
+            .box-hd a {
+                float: right;
+                margin-right: 5px;
+            }
+            .box-bd {
+                height: 680px;
+                width: 1400px;
+            }
+            .box-bd ul li {
+                float: left;
+                width: 380px;
+                height: 650px;
+                background-color: #00a4ff;
+                margin-right: 15px;
+            }
+            .box-bd ul li img {
+                width: 100%;
+            }
+            .box-bd ul li h4 {
+                margin: 20px 20px 20px 25px;
+                height: 70px;
+            }
+            .box-bd ul li a:hover{
+                color: black;
+            }
+            .box-bd ul li h4{
+                height: 270px;
+            }
+            .box-bd ul li a:hover{
+                color: black;
+            }
+            .banner2{
+            height: 140px;
+            background-color: rgb(0, 195, 255);
+            }
+            .banner2 .w{
+            height: 80px;
+            align-items: center;
+            }
+            .banner2 .w h2{
+                text-align: center;
+            }
+            .banner2 .w h3{
+                text-align: center;
+            }
+            .banner2 .w p{
+                font-size: larger;
+                margin-left: 150px;
+                margin-right: 150px;
+                margin-top: 50px;
+            }
+            .bannerP{
+            height: 340px;
+            background-color: rgb(0, 195, 255);
+            }
+            .bannerP .w{
+            height: 80px;
+            align-items: center;
+            }
+            .bannerP .w li{
+                margin-left: 250px;
+                margin-right: 150px;
+            }
+            .bannerP .w h2{
+                text-align: center;
+            }
+            .bannerP .w p{
+                font-size: larger;
+                margin-left: 150px;
+                margin-right: 150px;
+                margin-top: 50px;
+            }
+
+            .banner3{
+            height: 1880px;
+            background-color: rgb(0, 195, 255);
+            }
+            .banner3 .w{
+            height: 280px;
+            align-items: center;
+            }
+            .banner3 .w h2{
+                text-align: center;
+            }
+            .banner3 .w h3{
+                text-align: center;
+            }
+            .banner3 .w p{
+                font-size: larger;
+                margin-left: 150px;
+                margin-right: 150px;
+                margin-top: 50px;
+            }
+            .banner3 .w li{
+                margin-left: 220px;
+                width: 800px;
+                background-color: #00a4ff;
+                margin-right: 15px;
+            }
+            .banner3 .w li img{
+                width: 800px;
+            }
+            .banner3 .w li h4{
+                font-size: large;
+            }
+            .banner3 .w li p{
+                align-content: center;
+            }
+
+            .banner4{
+            height: 680px;
+            background-color: rgb(0, 195, 255);
+            }
+            .banner4 .w{
+            height: 280px;
+            align-items: center;
+            }
+            .banner4 .w h3{
+                text-align: center;
+            }
+            .banner4 .w li{
+                margin-left: 220px;
+                width: 800px;
+                height: 50px;
+                margin-right: 15px;
+            }
+            .banner4 .w li h4{
+                font-size: large;
+                align-content: center;
             }
         </style>
+        <link rel="stylesheet" href="./css/swiper.min.css">
     </head>
 
     <body>
         <div class="header w">
             <div class="logo">
-                <a href="index.html" target="_blank"><img src="HHlogo.png" height="80px" alt="logo"></a>
+                <a href="index.html" target="_blank"><img src="img/HHlogo.jpg" height="180px" alt="logo"></a>
             </div>
             <div class="nav">
                 <ul>
@@ -42,12 +225,204 @@
                     <li><a href="Edu.html">Education</a></li>
                     <li><a href="Res.html">Research</a></li>
                     <li><a href="Eve.html">Events & Gallery</a></li>
+                    <li><a href="Coll.html">Collaborators</a></li>
                 </ul>
-    
+            </div>
+            <div>
+                <div class="user">
+                    <img src="HH.png" height="120px" alt="HH">
+                    Haojie Hu
+                </div>
             </div>
         </div>
-        <div class="box">
-            Not yet!
+
+        <div class="banner">
+            <div class="w">
+            </div>
         </div>
+
+        <div class="banner2">
+            <div class="w">
+                <h2>Research interests (include, but not limited)</h2>
+                <h3>SuperMassive Black Holes (SMBHs), BH accretion, Active Galactic Nuclei (AGN) feedback, 
+                    co-evolution of SMBHs and host galaxies, quasars, 
+                    <br>
+                    high redshift galaxies, AGN outflow/wind/jet, numerical simulations (HD/RHD/RMHD)</h3>
+            </div>
+        </div>
+
+
+        <div class="bannerP">
+            <div class="w">
+                <h2>Publication list</h2>
+                <li>
+                    <a href="http://dx.doi.org/10.3847/2041-8213/ac16d9">
+                        [1]. Qiu, Y. Hu, H. et al. Dynamics and Morphology of Cold Gas in Fast, 
+                        Radiatively Cooling Outflows: Constraining AGN Energetics with Horseshoes. 
+                        Astrophys. J. Lett. 917, L7 (2021).</a>
+                    <br>
+                    <br>
+                    <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ac6601">
+                        [2]. Hu, H. et al. Signature of Supersonic Turbulence in Galaxy Clusters 
+                        Revealed by AGN-driven Halpha Filaments. Astrophys. J. Lett. 929, L30 (2022).</a>
+                    <br>
+                    <br>
+                    <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac75d8">
+                        [3]. Hu, H., Inayoshi, K., Haiman, Z., Quataert, E. & Kuiper, R. Long-term 
+                        Evolution of Supercritical Black Hole Accretion with Outflows: A Subgrid 
+                        Feedback Model for Cosmological Simulations. Astrophys. J. 934, 132 (2022). </a>
+                    <br>
+                    <br>
+                    <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac7daa">
+                        [4]. Hu, H. et al. Supercritical Growth Pathway to Overmassive Black Holes 
+                        at Cosmic Dawn: Coevolution with Massive Quasar Hosts. Astrophys. J. 935, 140 (2022).</a>
+                    
+                    <br>
+                </li>
+            </div>
+        </div>
+
+
+        <div class="box w">
+            <div class="box-hd">
+                <h3>Highlights</h3>
+            </div>
+
+            <div class="box-bd">
+                <ul>
+                    <li>
+                        <img src="./img/fig1.png"  alt="res">
+                        <h4>
+                            This Figure summarizes the observations on high-z Quasars, which indicating the existence 
+                            of 10^9~10^10 Solar Mass SMBHs at z ~ 6-7. It is chanllenge to grow such SMBHs by the 
+                            limited 'Eddington accretion rate', even at 100% duty cycle. Two alternatives are proposed to 
+                            explain the formation and evolution of these SMBHs. The first scenario is "Heavy Seed BHs". 
+                            In this scenario, heavy seed BHs can form by direct collapse of massive cloud under some 
+                            certain conditions (so called DCBH). The other scenario is "Rapid growth". In this case, the 
+                            seed BHs (possibly stellar mass BHs) can grow at Super-Eddington rate. I investegate the rapid 
+                            growth of seed BHs via simulations. 
+                        </h4>
+                    </li>
+                    <li>
+                        <img src="./img/fig2.png"  alt="res">
+                        <h4>
+                            This figure shows evolutionary tracks of heavy Seed BHs in BH mass-galaxy mass diagram. The heavy 
+                            seed BHs (10^5 solar mass, seed at z=15), can always grow faster than host galaxies, reaching the 
+                            overmassive region in the mass-mass diagram compared to local relations. In this model, we propose 
+                            a subgrid feeding (and feedback) model for seed BHs at galatic centers. Such a subgrid model can 
+                            facilitate the rapid growth of seed BHs at high-z universe, when the outflow strength is moderate (p ~ 0.5-0.7). 
+                            For strong outflows (p>0.7), the rapid growth of light seed BHs are significantly suppressed. 
+                        </h4>
+                    </li>
+                    <li>
+                        <img src="./img/fig3.png"  alt="res">
+                        <h4>
+                            This Figure shows the observations on Perseus and corresponding Velocity Structure Function (VSF) for 
+                            each filaments. We find that the 1/2 slope of VSF for Halpha-traced cold gas filaments in Perseus can 
+                            be well explained by the cold components of a supersonic hot outflow driven by AGN activities when it 
+                            cools down radiatively after about 10-20 Myr. We reproduced varied morphologies of cold gas similar to 
+                            the observed ones in Perseus (i.e., radial filaments, horseshoe filament, blueloop like structures) in 
+                            simulations. The origin of these cold filaments also indicating the energetics of the AGN activities. 
+                            The subsequent evolution of cold gas may also indicate the positive AGN feedback in a 10-20 Myr time delay.
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="banner3">
+            <div class="w">
+                <h3>Formation of SMBHs at high-z (z>6) universe</h3>
+                <li>
+                    <h4>The rise of the question</h4>
+                    <p>As the figure below summarizes that observation have already revealed the existence of 
+                        SMBHs (marked by colored dots) at redshift beyond 6 when the universe was less than 1 Gyr old. 
+                        It was too young for the universe to have such massive BHs. Because in the traditional fashion, 
+                        it took the universe 45 Myr to e-fold the mass of a seed BH. For a 10 solar mass BH seeded at z=35, 
+                        the growth tracks are indicated as the colored curves with different duty cycles (mared with the curves). 
+                        It would be marginally possible to grow all observed BHs in such an idealized model. 
+                        Therfore, it is natural to seek alternatives or more physically motivated models.
+                    </p>
+                    <img src="img/fig1.png" alt="SMBHs at high-z">
+                    <h4>The possible solutions</h4>
+                    <p>
+                        The general solutions to explain the existence of SMBHs at high-z universe are: i) growing 
+                        from a heavy seed BH, ii) growing at a super-Eddington rate. In the first scope of this project, 
+                        I only focus on the "super-Eddington growth model".
+                    </p>
+                    <h4>Heavy Seeds Model</h4>
+                    <p>
+                        Generally, there are three scenarios to form heavy seed BHs. i) remnant of Pop III stars, 
+                        ii) runaway collapse in dense stellar clusters, iii) DCBH.
+                    </p>
+                    <h4>The Super-Eddington growth model</h4>
+                    <p>
+                        Generally, the accretion onto the central objects are limited to Eddington accretion rate. However, 
+                        for BHs, the radiation emited from accretion could be trapped and thus the accretion rate may exceed 
+                        the Eddington limit, as long as dense gas is fed to cental BH.
+                    </p>
+                </li>
+                
+            </div>
+        </div>
+
+
+
+
+
+        <div class="banner3">
+            <div class="w">
+                <h3>The feedback from AGN activity in form of outflows</h3>
+                <li>
+                    <h4>AGN feedback</h4>
+                    <p>
+                        AGN feedback in form of outflows (jets, winds) and thermal energy is believed to essential in regulating 
+                        the evolution of host galaxies and central SMBHs. In observations, local galaxy clusters, e.g., 
+                        Perseus Cluster are perfect 
+                        laboratories to investigate the effects of AGN feedback on host galaxies. 
+                    </p>
+                    <h4>The evolution of AGN outflows</h4>
+                    <p>
+                        In Perseus cluster, their are vaired morphologies of cold gas filaments (ref) which can not be easily 
+                        explained by cold gas entrainment and acceleration by stellar wind (stellar feedback) (ref). Following 
+                        Qiu et al (2020), we perform 3D hydrodynamical simulations to investegate the cold gas formation and 
+                        evolution as a result of cooling of AGN driven hot outflows.
+                    </p>
+                    <h4>Purpose</h4>
+                    <p>
+                        We explain the morphological and dynamical evolution in Qiu, Hu et al (2021). We discuss the supersonic 
+                        signature and the origins of the cold gas filaments in Hu et al (2022). The studies on the formation and 
+                        evolution of cold gas filaments in Persues cluster can provide us with the information of past AGN 
+                        activities. The latest AGN activity could be at least 10 Myr ago, with kinetic energy around 1e57 ergs, and 
+                        feedback power large than 2e44 erg/s.
+                    </p>
+                </li>
+            </div>
+        </div>
+
+
+
+        <div class="footer">
+            <div class="w">
+                Discuss with me: huhaojie@ccs.tsukuba.ac.jp
+                <br>
+                <br>
+                @copyright: All Rights Reserved.
+            </div>
+        </div>
+        <script src="./js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                centeredSlides: true,
+                pagination: '.swiper-pagination',
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                paginationClickable: true,
+                spaceBetween: 30,
+                loop: true
+            });
+        </script>
     </body>
 </html>
