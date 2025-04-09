@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quickulator</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 600px;
+            margin: 0 auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .tabletitle {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .module {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .input-group {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .input-group input[type="number"] {
+            padding: 5px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        .input-group label {
+            width: 100px;
+            text-align: left;
+        }
+        .button-group {
+            margin-top: 20px;
+        }
+        .button-group button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quickulator</h1>
+    
+
+    <div class="module">
+        <h2>Energy Conversion</h2>
+        <div class="input-group">
+            <input type="number" id="inputMicron" placeholder="Enter wavelength">
+            <label for="inputMicron">Micron</label>
+        </div>
+        <div class="input-group">
+            <input type="number" id="inputEV" placeholder="Enter energy">
+            <label for="inputEV">eV</label>
+        </div>
+        <div class="input-group">
+            <input type="number" id="inputKelvin" placeholder="Enter temperature">
+            <label for="inputKelvin">K</label>
+        </div>
+        <div class="button-group">
+            <button onclick="convertEnergy()">Calculate</button>
+            <button onclick="clearInputs()">Clear</button>
+        </div>
+    </div>
+
+
+    <div class="tabletitle">
+        <h2>Constants</h2>
+    </div>
+
+
+
+    <table>
+        <tr>
+            <th>Constant</th>
+            <th>Value</th>
+            <th>Unit</th>
+            <th>Reference</th>
+        </tr>
+        <tr>
+            <td>G: gravitational Constant</td>
+            <td>6.67e-8</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>h: Planck Constant</td>
+            <td>6.62e-27</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>h: Hubble Constant</td>
+            <td>0.6732</td>
+            <td>100 km/s/Mpc</td>
+            <td>[[Planck+2018.pdf]]</td>
+        </tr>
+        <tr>
+            <td>c: speed of light</td>
+            <td>2.9979e10</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>kb:</td>
+            <td>1.38e-16</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>mp: proton mass</td>
+            <td>1.673e-24</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>mn: neutron mass</td>
+            <td>1.675e-24</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>me: electron mass</td>
+            <td>9.109e-28</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>sigma_T: Thomson cross section</td>
+            <td>6.652e-25</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>sigma_SB: Stefan Boltzmann Constant</td>
+            <td>5.67e-5</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>a: radiation constant</td>
+            <td>4*sigma_SB/c</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Kappa_es: electron scattering opacity</td>
+            <td>0.35</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Msolar: solar mass</td>
+            <td>1.99e33</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lsolar: Solar luminosity</td>
+            <td>3.827e33</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Rsolar: Solar Radius</td>
+            <td>6.960e10</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>AU: Astronomical Unit</td>
+            <td>1.496e13</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Mpc:</td>
+            <td>3.0856776e24</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>year:</td>
+            <td>3.15576e7</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>pc:</td>
+            <td>3.0856776e18</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>keV_in_K:</td>
+            <td>11604525.00617</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>eV_in_K:</td>
+            <td>keV_in_K/1000</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>eV_in_erg</td>
+            <td>keV_in_K * kb /1000</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>keV_in_erg</td>
+            <td>eV_in_erg * 1000</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>pi:</td>
+            <td>3.14159</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>kms:</td>
+            <td>100000</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>mue: mean electron weight</td>
+            <td>1.154</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>mu: mean molecular weight</td>
+            <td>0.6</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <p><a href="index.html">Go to First Webpage</a></p>
+    
+    <script>
+        const hc = 1.23984193;  // Planck's constant times speed of light (eV * micron)
+        const kB = 8.617333262145e-5;  // Boltzmann constant (eV / K)
+        
+        function convertEnergy() {
+            const micron = parseFloat(document.getElementById('inputMicron').value);
+            const eV = parseFloat(document.getElementById('inputEV').value);
+            const kelvin = parseFloat(document.getElementById('inputKelvin').value);
+            
+            if (!isNaN(micron)) {
+                document.getElementById('inputEV').value = (hc / micron).toFixed(6);
+                document.getElementById('inputKelvin').value = (hc / (micron * kB)).toFixed(2);
+            } else if (!isNaN(eV)) {
+                document.getElementById('inputMicron').value = (hc / eV).toFixed(6);
+                document.getElementById('inputKelvin').value = (eV / kB).toFixed(2);
+            } else if (!isNaN(kelvin)) {
+                document.getElementById('inputEV').value = (kelvin * kB).toFixed(6);
+                document.getElementById('inputMicron').value = (hc / (kelvin * kB)).toFixed(6);
+            }
+        }
+        
+        function clearInputs() {
+            document.getElementById('inputMicron').value = '';
+            document.getElementById('inputEV').value = '';
+            document.getElementById('inputKelvin').value = '';
+        }
+    </script>
+</body>
+</html>
