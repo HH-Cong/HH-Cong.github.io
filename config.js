@@ -5,7 +5,7 @@ const personalInfo = {
     email: "huhaojie@ccs.tsukuba.ac.jp",
     office: "Center for Computational Sciences, University of Tsukuba",
     phone: "Contact via email",
-    photo: "./img/homepage.png", // Add a default photo path
+    photo: "./img/Homepage.jpeg", // Add a default photo path
     cvLink: "./files/Haojie_Hu_CV2025.pdf",
     bio: `This is Haojie Hu from Planet Earth. "Haojie" is my first name, it is written as "豪杰" in Chinese character, which means "a hero, a brave man". The pronunciation is like "How Jet" (with "t" silent). My family name is "Hu", with pronunciation like "who". In China, we have family name comes first, so it is written as "胡豪杰". You can just call me "Haojie [How Jet (with "t" silent)]" or just "Jie [Jet (with "t" silent)]".
     <br><br>
