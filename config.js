@@ -416,7 +416,7 @@ const links = [
     {
         title: "Kavli Institute for Astronomy and Astrophysics (KIAA)",
         url: "http://kiaa.pku.edu.cn"
-    }，
+    },
     {
         title: "Paper Reading Notes",
         url: "https://hhwonder4.notion.site/25d102dd8fb5808e8a54f1102ff49ac7?v=25d102dd8fb58062b982000c3c5bd29b"
