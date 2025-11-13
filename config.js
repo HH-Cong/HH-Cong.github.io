@@ -231,106 +231,120 @@ const events = {
             event: "Cospar",
             type: "Contributed Talk",
             date: "13-21 July, 2024",
-            location: "Busan"
+            location: "Busan, Korea"
         },
         {
             title: "Contributed talk",
             event: "First Star",
             type: "Contributed Talk",
             date: "20-23 May, 2024",
-            location: "NYC"
+            location: "NYC, the United States"
         },
         {
             title: "Contributed talk",
             event: "Galaxy formation in Hangzhou: Observation and Physics of AGN",
             type: "Contributed Talk",
             date: "10 Oct 2023",
-            location: "Hangzhou"
+            location: "Hangzhou, China"
         },
         {
             title: "Contributed talk",
             event: "East Asian AGN workshop",
             type: "Contributed Talk",
-            date: "24 Sep. 2023"
+            date: "24 Sep. 2023",
+            location: "Kagoshima, Japan"
         },
         {
             title: "Poster",
             event: "European Astronomical society 2023 (EAS2023)",
             type: "Poster",
-            date: "14 July 2023"
+            date: "14 July 2023",
+            location: "Poland"
         },
         {
-            title: "Talk",
+            title: "Contributed Talk",
             event: "Astrophysical BHs: a rapidly moving field",
-            type: "Talk",
-            date: "23 June 2023"
+            type: "Contributed Talk",
+            date: "23 June 2023",
+            location: "Hong Kong, China"
         },
         {
-            title: "Talks",
+            title: "Colloquium Talk",
             event: "Zhejiang University, Shanghai Astronomical Observatory, Tsung-Dao Lee Institute",
             type: "Talk",
-            date: "May 2023"
+            date: "May 2023",
+            location: "Hangzhou, China"
         },
         {
             title: "CSST-Galaxy-AGN discussion on Feedback in simulations",
             event: "Peking University",
             type: "Discussion",
-            date: "4th April 2023"
+            date: "4th April 2023",
+            location: "Beijing, China"
         },
         {
             title: "Lunch seminar",
             event: "Tsinghua University",
             type: "Seminar",
-            date: "31st Mar 2023"
+            date: "31st Mar 2023",
+            location: "Beijing, China"
         },
         {
             title: "IAU conference",
             event: "IAU",
             type: "Conference",
-            date: "21-23 Nov 2022"
+            date: "21-23 Nov 2022",
+            location: "Online"
         },
         {
             title: "Computational Astrophysics Seminar",
             event: "University of Duisburg-Essen",
             type: "Seminar",
-            date: "27 Oct 2022"
+            date: "27 Oct 2022",
+            location: "Online (Germany)"
         },
         {
             title: "East Asian Numerical Astrophysical meeting",
             event: "EANA",
             type: "Conference",
-            date: "26-30 Sep 2022"
+            date: "26-30 Sep 2022",
+            location: "Online"
         },
         {
             title: "Origin, growth and feedback of black holes in dwarf galaxies",
             event: "Conference",
             type: "Conference",
-            date: "12-16 Sep 2022"
+            date: "12-16 Sep 2022",
+            location: "Online (the United States)"
         },
         {
             title: "Galaxy-IGM workshop 2022",
             event: "Galaxy-IGM workshop",
             type: "Workshop",
             date: "8-12 Aug 2022",
-            note: "Best Group Work on AGN Theory"
+            note: "Best Group Work on AGN Theory",
+            location: "Online (Japan)"
         },
         {
             title: "EAS 2022: European Astronomical Society Annual Meeting",
             event: "EAS 2022",
             type: "Conference",
-            date: "27 Jun - 1 Jul 2022"
+            date: "27 Jun - 1 Jul 2022",
+            location: "Online (Spain)"
         },
         {
             title: "Lunch seminar",
             event: "IPMU",
             type: "Seminar",
-            date: "14 Jun 2022"
+            date: "14 Jun 2022",
+            location: "Online (Tokyo, Japan)"
         },
         {
             title: "2021 The first KIAA forum on gas in galaxies for early career scientist",
             event: "KIAA forum",
             type: "Forum",
-            date: "1-5 Nov 2021"
+            date: "1-5 Nov 2021",
+            location: "Beijing, China"
         },
         {
             title: "East-Asia AGN workshop",
