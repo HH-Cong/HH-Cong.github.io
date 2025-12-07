@@ -176,7 +176,7 @@ const events = {
         {
             title: "Colloquium Talk @ RIKEN",
             type: "Colloquium Talk",
-            date: "13th Mar, 2026 (Not settled)",
+            date: "10th April, 2026 (Not settled)",
             url: "No Link"
         }
     ],
