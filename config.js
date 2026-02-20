@@ -38,8 +38,14 @@ const research = {
     interests: "SuperMassive Black Holes (SMBHs), BH Accretion, Active Galactic Nuclei (AGN) Feedback, Co-evolution of SMBHs and Host Galaxies, Auasars, High Redshift Galaxies, AGN Outflow/Aind/Jet, Numerical Simulations (HD/GRRHD/RMHD)",
     publications: [
         {
+            title: "Back to Normal Again: Possible Destinies of JWST overmassive SMBHs and “Little Red Dots” in the View of Shin-Uchuu Simulation",
+            status: "Submitted to ApJ",
+            arxiv: "2602.14496",
+            url: "http://arxiv.org/abs/2602.14496"
+        },
+        {
             title: "Clumpy Outflows from Super-Eddington Accreting Black Holes I: Radiation Hydrodynamics Simulations and Observational Implications",
-            status: "Submitted to PASJ",
+            status: "Accepted for publication in PASJ",
             arxiv: "2510.17696",
             url: "https://arxiv.org/pdf/2510.17696"
         },
@@ -173,6 +179,12 @@ const research = {
 
 const events = {
     upcoming: [
+        {
+            title: "BHJET2026 workshop--降着円盤・円盤風研究会2026 @ Komazawa University",
+            type: "Contributed Talk",
+            date: "11th-13th March, 2026",
+            url: "https://sites.google.com/view/bhjet2026/ホーム"
+        },
         {
             title: "Colloquium Talk @ RIKEN",
             type: "Colloquium Talk",
@@ -395,7 +407,7 @@ const links = [
     },
     {
         title: "My publication in ADS",
-        url: "https://ui.adsabs.harvard.edu/public-libraries/ZGKN13g-RjqAqBcBEt37qg"
+        url: "https://scixplorer.org/public-libraries/ZGKN13g-RjqAqBcBEt37qg"
     },
     {
         title: "TAG Calendar",
