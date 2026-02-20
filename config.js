@@ -30,6 +30,7 @@ const education = {
     ],
     additional: [
         { type: "Summer School", name: "CSST Summer School", year: "2022" },
+        { type: "N-body simulation winter school", name: "N-body simulation winter school", year: "2025" },
         { type: "Teaching Assistant", name: "Stellar Structure and Evolution", year: "2020-2021, 2023" }
     ]
 };
