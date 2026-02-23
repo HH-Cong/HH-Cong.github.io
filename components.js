@@ -93,7 +93,8 @@ class WebsiteComponents {
                 citation += ` <a href="${pub.url}" target="_blank">arXiv: ${pub.arxiv}</a>`;
             }
             
-            return `<li>Hu, H. et al. ${citation}</li>`;
+            //return `<li>Hu, H. et al. ${citation}</li>`;
+            return `<li>${citation}</li>`;
         }).join('');
 
         const highlightsList = research.highlights.map(highlight => `
