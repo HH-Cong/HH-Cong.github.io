@@ -46,7 +46,8 @@ const research = {
         },
         {
             title: "Clumpy Outflows from Super-Eddington Accreting Black Holes I: Radiation Hydrodynamics Simulations and Observational Implications",
-            status: "Accepted for publication in PASJ",
+            journal: "Publications of the Astronomical Society of Japan, psaf158, (2026)",
+            journalUrl: "https://academic.oup.com/pasj/advance-article/doi/10.1093/pasj/psaf158/8502083",
             arxiv: "2510.17696",
             url: "https://arxiv.org/pdf/2510.17696"
         },
@@ -189,8 +190,8 @@ const events = {
         {
             title: "Colloquium Talk @ RIKEN",
             type: "Colloquium Talk",
-            date: "10th April, 2026 (Not settled)",
-            url: "No Link"
+            date: "10th April, 2026",
+            url: "https://ithems.riken.jp/en/events/clumpy-outflows-from-super-eddington-accreting-black-holes"
         }
     ],
     past: [
