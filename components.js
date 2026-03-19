@@ -24,7 +24,7 @@ class WebsiteComponents {
             <section id="about">
                 <div class="about-container">
                     <div class="about-text">
-                        <h2>About Me</h2>
+                        <h2>About Me: Dr. Haojie Hu</h2>
                         <p>${personalInfo.bio}</p>
                         
                         <div class="contact-info">

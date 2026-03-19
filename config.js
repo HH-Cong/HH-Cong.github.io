@@ -7,9 +7,16 @@ const personalInfo = {
     phone: "Contact via email",
     photo: "./img/Homepage.png", // Add a default photo path
     cvLink: "./files/Haojie_Hu_CV2025.pdf",
-    bio: `This is Haojie Hu from Planet Earth. "Haojie" is my first name, it is written as "豪杰" in Chinese character, which means "a hero, a brave man". The pronunciation is like "How Jet" (with "t" silent). My family name is "Hu", with pronunciation like "who". In China, we have family name comes first, so it is written as "胡豪杰". You can just call me "Haojie [How Jet (with "t" silent)]" or just "Jie [Jet (with "t" silent)]".
+    bio: `This is Haojie Hu from Planet Earth. "Haojie" is my first name, it is written as "豪杰" in Chinese character, 
+    which means "a hero, a brave man". The pronunciation is like "How Jet" (with "t" silent). My family name is "Hu", 
+    with pronunciation like "who". In China, we have family name comes first, so it is written as "胡豪杰". You can 
+    just call me "Haojie [How Jet (with "t" silent)]" or just "Jie [Jet (with "t" silent)]".
     <br><br>
-    Now I am a JSPS fellow, working with Prof. Ken Ohsuga at University of Tsukuba. My research interests focus on SuperMassive Black Holes (SMBHs). I am interested in the formation and evolution of SMBHs at high redshifts (z>6), and their co-evolution with host galaxies (the co-evolution scenario). The interplay between central SMBHs and their host galaxies especially in Active Galactic Nuclei (aka, AGN feeding and feedback), always fascinates me. I try to understand the growth pathway of seed BH to SMBHs at high-z universe via numerical simulations.`
+    Currently, I am a JSPS fellow working with Prof. Ken Ohsuga at University of Tsukuba. My research interests focus on 
+    SuperMassive Black Holes (SMBHs). I am interested in the formation and evolution of SMBHs at high redshifts (z>6), 
+    and their co-evolution with host galaxies (the co-evolution scenario). The interplay between central SMBHs and 
+    their host galaxies especially in Active Galactic Nuclei (aka, AGN feeding and feedback), always fascinates me. 
+    I try to understand the growth pathway of seed BH to SMBHs at high-z universe via numerical simulations.`
 };
 
 const navigation = [
@@ -89,104 +96,105 @@ const research = {
     ],
     highlights: [
         {
-            title: "1. Formation of first SMBHs",
-            image: "./img/high-z_SMBH_M-Z_with_legend.png",
-            description: 
-            `Observations of high-redshift quasars and galaxies have revealed the existence of 10⁹-10¹⁰ solar mass 
-            supermassive black holes (SMBHs) at z ≈ 6-7. Growing such massive SMBHs through standard Eddington-limited 
-            accretion—the spherical accretion limit that balances radiation pressure against gravitational infall—poses 
-            significant challenges, even assuming a 100% duty cycle. Two primary mechanisms have been proposed to 
-            explain the formation and rapid growth of these early SMBHs: (1) heavy seed black holes that begin with 
-            substantially larger initial masses, and (2) super-Eddington accretion onto stellar-mass seed black holes 
-            that exceeds the classical Eddington limit. I am employing numerical simulations and analytical models to 
-            investigate the viability of these formation pathways and constrain the physical processes governing early 
-            SMBH evolution.`
-        },
-        {
-            title: "2. AGN Feedback & Co-evolution Between BHs and Host Galaxies",
-            image: "./img/MM_diagram_for_seeds.png",
-            description: 
-            `Observations reveal tight correlations between properties of supermassive black holes (SMBHs) and their host 
-            galaxies, particularly the relationship between SMBH masses and stellar masses of host galaxies. It has been 
-            argued that feedback from SMBHs is responsible for establishing and maintaining these fundamental scaling relations.
-
-            Although active galactic nucleus (AGN) feedback has been extensively studied, there remains no consensus on 
-            the specific mechanisms by which AGN feedback shapes these observed correlations. The complexity of the 
-            feedback processes and their multi-scale nature present significant theoretical and observational challenges.
-
-            AGN outflows in the form of winds and jets are believed to be the primary drivers of feedback effects, capable 
-            of regulating star formation and influencing galaxy evolution across cosmic time. I am employing advanced 
-            numerical simulations to systematically investigate various outflow effects, including detailed modeling of 
-            ultra-fast outflows, multi-velocity wind structures, and relativistic jet propagation. This comprehensive 
-            approach aims to elucidate the relative importance of each mechanism in shaping the observed SMBH-galaxy 
-            scaling relations.`
-        },
-        {
-            title: "Paper Highlight: Redshift evolution of MM ratio for two seeding scenarios (semi-analytical modeling)",
-            image: "./img/data+model.png",
-            description: 
-            `Based on numerical simulations, we propose a semi-analytical model to investigate the formation and cosmic 
-            evolution of black holes from different formation scenarios.
-            We find that the rapid growth of seed black holes also erases their initial seeding information, making it 
-            challenging to distinguish between formation channels for different seed populations. This figure demonstrates 
-            the convergent evolution of black hole mass-to-galaxy mass (M_BH/M_gal) ratios for both heavy and light seed 
-            black holes. Even with this convergence, it remains possible to disentangle the degeneracy before the ratios converge.
-
-            Our results indicate that high-ratio supermassive black holes observed at z~10 likely originated from heavy 
-            seed black holes (such as direct collapse black holes), since the convergence between different seed populations 
-            occurs after z~9-8. This finding provides a potential observational signature for distinguishing formation 
-            pathways in the early universe, where the detection of extremely massive black holes relative to their host 
-            galaxies at the highest redshifts could serve as evidence for heavy seed formation channels.`
-        },
-        {
-            title: "Paper Highlight: AGN Feedback in galaxy Cluster (evolution of AGN-driven outflows)",
-            image: "./img/fig3.png",
-            description: 
-            `AGN feedback is thought to drive the co-evolution between supermassive black holes and host galaxies, yet 
-            diagnosing AGN energetics remains challenging. Outflows from SMBH accretion carry crucial energetic 
-            information about AGN activity, making them valuable feedback probes.
-
-            We developed an analytical model to investigate AGN-driven outflow formation and evolution, applying it to 
-            explain cold gas filaments in the Perseus cluster. Our findings show that the 1/2 slope of the velocity 
-            structure function for Hα-traced filaments can be explained by cold components of supersonic hot outflows 
-            that cool radiatively after ~10-20 Myr.
-
-            Our simulations successfully reproduced the varied cold gas morphologies observed in Perseus, including 
-            radial filaments, horseshoe structures, and blue-loop features. These filament characteristics provide 
-            direct constraints on central AGN energetics, while their subsequent evolution suggests positive AGN 
-            feedback operating on 10-20 Myr timescales.`
-        },
-        {
-            title: "Paper Highlight: Accretion Winds from Super-Eddington Accretion onto BHs",
+            title: "1. Super-Eddington Accretion",
             image: "./img/Paper3fig3.png",
             description: 
-            `Super-Eddington accretion onto black holes is believed to drive rapid growth of seed black holes at high 
-            redshift and power ultra-luminous X-ray sources. When sufficient dense gas feeds the black hole, radiation 
-            becomes trapped within dense disks, resulting in negligible feedback effects on large-scale gas supply. 
-            This minimal negative feedback enables sustained super-Eddington accretion.
+            `Accretion onto BHs is believed to play an indisputable role in powering some of the most energetic phenomena 
+            in astrophysical environments. The Accretion rate is often limited to Eddington accretion rate, which occurs 
+            in a spherical system when (electron scattering) radiation force balances the gravity. Gradually, it is 
+            realized that in certain scenarios, accretion rate can exceed the Eddington accretion rate. This is dubbed as
+            'Super-Eddington accretion'. Super-Eddington accretion has been invoked to explain some exotic astrophysical 
+            phenomena, e.g., ultraluminous X-ray sources (ULX), Tidal Disruption Events (TDEs), and luminous quasars. 
+            Super-Eddington accretion has been widely studied via numerical simulations. Yet, a unified pictures has 
+            not been reached. It still requires more delicate investigations regarding its spatial structures and 
+            temperal evolutions.
+            <p>
+            My contribution: Long-term Evolution of super-Eddington accretion and its feedback model. 
+            <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac7daa">(Paper Link)</a>.
+            </p>
+            `
+        },
+        {
+            title: "2. Outflows from Accretion & AGN Feedback",
+            image: "./img/ClumpyOutflow.png",
+            description: 
+            `
+            Supermassive black holes are ubiquitously found to exist in the centers of Active Galactic Nuclei (AGNs). 
+            Accretion onto SMBHs is responsible for the intense radiation observed in luminous quasars. However, 
+            accretion inevitably launches outflows in forms of jets and winds to release energy and momentum. 
+            These jets and winds are constantly depositing energy and momentum to the surrounding gas when traveling 
+            to large scales. These outflows are believed to impact the evolution of inflow gas and galactic 
+            star-formation (known as AGN feedback), shaping the co-evolution between SMBHs and host galaxies. 
 
-            We conducted 2D radiation-hydrodynamic (RHD) simulations to study long-term super-Eddington accretion evolution, 
-            incorporating effective photon-trapping physics. Our simulations achieved quasi-steady super-Eddington accretion 
-            states.
+            Many efforts are paied to investigated accretion outflows and AGN feedback. However, a thotough picture of 
+            AGN feedback is impeded by the large span of physical scales and limited resolution both in observations and 
+            simulations. Multiple directions are emerging to disentangle the mystery of AGN feedback: AGN (quasar) 
+            demographics (larger and deeper observation surveys), cosmological simulations, galaxy simulations and 
+            BH accreion simulations. With these efforts, the mysterious veil of AGN feedback is gradually beening revealed.
+            <p>
+            I have been studying AGN feedback via numerical simulations both on galactic scales and BH accretion scales.
+            My contribution: 
+                <ul>
+                    <li>
+                        Outflow energy and momentum outflow from super-Eddington accreting BHs: 
+                        <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac7daa">(Paper Link)</a>;
+                    </li>
+                    <li>                        
+                        The dynamical and morphological evolution of AGN-driven outflows in cool-core clusters: 
+                        <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ac1173">(Paper1,</a>
+                        <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ac6601">Paper2)</a>;
+                    </li>
+                    <li>                        
+                        The formation and evolution of clumpy outflows from super-Eddington accreting BHs: 
+                        <a href="https://academic.oup.com/pasj/advance-article/doi/10.1093/pasj/psaf158/8502083">(Paper Link)</a>;
+                    </li>
+                    <li>...</li>
+                </ul>
+            </p>
+            `
+        },
+        {
+            title: "3. Semi-analytical Model for SMBHs growth & their co-evolution with galaxies",
+            image: "./img/FigsCompiling.png",
+            description: 
+            `
+            Observation has revealed many important properties of SMBHs and their host galaxies: (1) the existence of 
+            billian solar mass BHs at high redshift (z>6); (2) tight correlation between the mass of SMBHs and the 
+            stellar mass of host galaxies; (3) the possible redshift evolution of these relations (or not), etc.
 
-            This figure shows the 2D distribution of sound speed and gas density at two different scales for our fiducial 
-            case. On larger scales (left panel), convective motion governs the flow pattern, with gas inflowing through the 
-            equatorial region while similar amounts outflow toward polar regions. On smaller scales (right panel), inflows 
-            dominate due to strong gravity, though significant outflows reduce the net inflow rate toward the black hole. 
-            This behavior is consistent with other radiation-inefficient accretion flow (RIAF) simulations, demonstrating 
-            the self-regulating nature of super-Eddington systems.`
+            Some of these observations have arose new questions regarding the formation and evolution of BHs and 
+            their co-evolution with host galaxies. Cosmological simulations have been successful in explaining 
+            some aspects of these observations. However, the huge computational costs and limited resolution hampered
+            deeper and direct investigations. To this aid, (semi-)analytical models are useful to test sub-grid physics 
+            that matters most and provide more straight forward interpretations for different models, especially 
+            at cosmological timescale. 
+            <p>
+            I build a semi-analytical model based on dark matter merger trees to investigete cosmic (co-)evolution
+            of SMBHs and host galaxies.
+            My contribution: 
+                <ul>
+                    <li>
+                        Super-Eddington growth pathway to high-z overmassive SMBHs (before JWST): 
+                        <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac8166">(Paper)</a>;
+                    </li>
+                    <li>                        
+                        The convergence behavior of light and heavy seed to overmassive SMBHs: 
+                        <a href="https://iopscience.iop.org/article/10.3847/2041-8213/adc680">(Paper)</a>;
+                    </li>
+                    <li>                        
+                        The subsequent evolution of overmassive SMBHs and LRDs down to z=0: 
+                        <a href="http://arxiv.org/abs/2602.14496">(Paper)</a>;
+                    </li>
+                    <li>...</li>
+                </ul>
+            </p>
+            `
         }
     ]
 };
 
 const events = {
     upcoming: [
-        {
-            title: "BHJET2026 workshop--降着円盤・円盤風研究会2026 @ Komazawa University",
-            type: "Contributed Talk",
-            date: "11th-13th March, 2026",
-            url: "https://sites.google.com/view/bhjet2026/ホーム"
-        },
         {
             title: "Colloquium Talk @ RIKEN",
             type: "Colloquium Talk",
@@ -195,6 +203,14 @@ const events = {
         }
     ],
     past: [
+        {
+            title: "BHJET2026 workshop--降着円盤・円盤風研究会2026 @ Komazawa University",
+            event: "BHJET2026 workshop",
+            type: "Contributed Talk",
+            date: "11th-13th March, 2026",
+            location: "Komazawa Univeristy, Tokyo, Japan",
+            url: "https://sites.google.com/view/bhjet2026/ホーム"
+        },
         {
             title: "Clumpy outflows from super-Eddington accreting black holes: Formation mechanisms and observational implications",
             event: "XRISM International Conference 2025",
