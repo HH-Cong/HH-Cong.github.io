@@ -43,7 +43,7 @@ const education = {
 };
 
 const research = {
-    interests: "SuperMassive Black Holes (SMBHs), BH Accretion, Active Galactic Nuclei (AGN) Feedback, Co-evolution of SMBHs and Host Galaxies, Auasars, High Redshift Galaxies, AGN Outflow/Aind/Jet, Numerical Simulations (HD/GRRHD/RMHD)",
+    interests: "SuperMassive Black Holes (SMBHs), BH Accretion, Active Galactic Nuclei (AGN) Feedback, Co-evolution of SMBHs and Host Galaxies, Quasars, High Redshift Galaxies, AGN Outflow/Wind/Jet, Numerical Simulations (HD/GRRHD/RMHD)",
     publications: [
         {
             title: "Back to Normal Again: Possible Destinies of JWST overmassive SMBHs and “Little Red Dots” in the View of Shin-Uchuu Simulation",
