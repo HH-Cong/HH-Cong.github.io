@@ -196,13 +196,27 @@ const research = {
 const events = {
     upcoming: [
         {
-            title: "Colloquium Talk @ RIKEN",
-            type: "Colloquium Talk",
-            date: "10th April, 2026",
-            url: "https://ithems.riken.jp/en/events/clumpy-outflows-from-super-eddington-accreting-black-holes"
-        }
+            title: "Contributed Talk @ BREAKING THE LIMITS 2026 SUPER-EDDINGTON ACCRETION ONTO COMPACT OBJECT, Sardinia, Italy.",
+            type: "Contributed Talk",
+            date: "22-26 June 2026",
+            url: "https://breakingthelimits.github.io/supereddington2026/"
+        },
+        {
+            title: "Contributed Talk @ EAS 2026, Lausanne, Switzerland",
+            type: "Contributed Talk",
+            date: "29 June – 3 July 2026",
+            url: "https://eas.unige.ch/EAS2026/index.jsp"
+        },
     ],
     past: [
+        {
+            title: "Clumpy Outflows from Super-Eddington Accreting Black Holes",
+            event: "Colloquium",
+            type: "Colloquium Talk",
+            date: "10th April, 2026",
+            location: "RIKEN Center for Interdisciplinary Theoretical and Mathematical Sciences/RIKEN, Tokyo, Japan",
+            url: "https://ithems.riken.jp/en/events/clumpy-outflows-from-super-eddington-accreting-black-holes"
+        },
         {
             title: "BHJET2026 workshop--降着円盤・円盤風研究会2026 @ Komazawa University",
             event: "BHJET2026 workshop",
