@@ -196,19 +196,37 @@ const research = {
 const events = {
     upcoming: [
         {
-            title: "Contributed Talk @ BREAKING THE LIMITS 2026 SUPER-EDDINGTON ACCRETION ONTO COMPACT OBJECT, Sardinia, Italy.",
-            type: "Contributed Talk",
-            date: "22-26 June 2026",
-            url: "https://breakingthelimits.github.io/supereddington2026/"
-        },
-        {
-            title: "Contributed Talk @ EAS 2026, Lausanne, Switzerland",
-            type: "Contributed Talk",
-            date: "29 June – 3 July 2026",
-            url: "https://eas.unige.ch/EAS2026/index.jsp"
+            title: "To be added",
+            type: "None",
+            date: "None",
+            url: "None"
         },
     ],
     past: [
+        {
+            title: "The precedents and  descendants of JWST Overmassive Black Holes and Little Red Dots: a semi-analytical model for the coevolution between SMBHs and host galaxies",
+            event: "EAS 2026",
+            type: "e-Poster",
+            date: "29 June – 3 July 2026",
+            location: " Lausanne, Switzerland",
+            url: "https://eas.unige.ch/EAS2026/index.jsp"
+        },
+        {
+            title: "Clumpy Outflows from Super-Eddington Accreting Black Holes: Hydrodynamical simulations and Observational implications",
+            event: "EAS 2026",
+            type: "Contributed Talk",
+            date: "29 June – 3 July 2026",
+            location: " Lausanne, Switzerland",
+            url: "https://eas.unige.ch/EAS2026/index.jsp"
+        },
+        {
+            title: "Clumpy Outflows from Super-Eddington Accreting Black Holes: Hydrodynamical simulations and Observational implications",
+            event: "BREAKING THE LIMITS 2026 SUPER-EDDINGTON ACCRETION ONTO COMPACT OBJECT",
+            type: "Contributed Talk",
+            date: "22-26 June 2026",
+            location: "Sardinia, Italy",
+            url: "https://breakingthelimits.github.io/supereddington2026/"
+        },
         {
             title: "Clumpy Outflows from Super-Eddington Accreting Black Holes",
             event: "Colloquium",
