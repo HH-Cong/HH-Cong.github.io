@@ -1,7 +1,7 @@
 const personalInfo = {
     name: "Haojie Hu (胡豪杰)",
-    title: "JSPS Fellow, University of Tsukuba",
-    position: "JSPS Fellow, University of Tsukuba",
+    title: "Postdoc, University of Tsukuba",
+    position: "Postdoc, University of Tsukuba",
     email: "huhaojie@ccs.tsukuba.ac.jp",
     office: "Center for Computational Sciences, University of Tsukuba",
     phone: "Contact via email",
@@ -42,7 +42,7 @@ const education = {
     ],
     job:[
         { type: "Postdoc Fellow", name: "Japan Society for the Promotion of Science (JSPS) fellow, working with Prof. Ken Ohsuga", year: "2024.08-2026.08" },
-        { type: "Postdoc Research", name: "Postdoc researcher, working with Prof. Ken Ohsuga", year: "2024.09-Now" }
+        { type: "Postdoc Researcher", name: "Postdoc researcher, working with Prof. Ken Ohsuga", year: "2026.09-Now" }
     ]
 };
 
