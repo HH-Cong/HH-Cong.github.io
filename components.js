@@ -53,6 +53,9 @@ class WebsiteComponents {
         const additionalList = education.additional.map(item => 
             `<li><strong>${item.type}:</strong> ${item.name} (${item.year})</li>`
         ).join('');
+        const jobList = education.job.map(item => 
+            `<li><strong>${item.type}:</strong> ${item.name} (${item.year})</li>`
+        ).join('');
 
         return `
             <section id="education">
@@ -64,6 +67,10 @@ class WebsiteComponents {
                 <h3>Additional Training & Experience</h3>
                 <ul>
                     ${additionalList}
+                </ul>
+                <h3>Job Experience</h3>
+                <ul>
+                    ${jobList}
                 </ul>
             </section>
         `;

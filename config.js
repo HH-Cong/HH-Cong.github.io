@@ -12,7 +12,7 @@ const personalInfo = {
     with pronunciation like "who". In China, we have family name comes first, so it is written as "胡豪杰". You can 
     just call me "Haojie [How Jet (with "t" silent)]" or just "Jie [Jet (with "t" silent)]".
     <br><br>
-    Currently, I am a JSPS fellow working with Prof. Ken Ohsuga at University of Tsukuba. My research interests focus on 
+    Currently, I am a postdoc researcher working with Prof. Ken Ohsuga at University of Tsukuba. My research interests focus on 
     SuperMassive Black Holes (SMBHs). I am interested in the formation and evolution of SMBHs at high redshifts (z>6), 
     and their co-evolution with host galaxies (the co-evolution scenario). The interplay between central SMBHs and 
     their host galaxies especially in Active Galactic Nuclei (aka, AGN feeding and feedback), always fascinates me. 
@@ -21,7 +21,7 @@ const personalInfo = {
 
 const navigation = [
     { href: "#about", text: "About" },
-    { href: "#education", text: "Education" },
+    { href: "#education", text: "Experience & Education" },
     { href: "#research", text: "Research" },
     { href: "#events", text: "Events & Talks" },
     { href: "#collaborators", text: "Collaborators" },
@@ -31,14 +31,18 @@ const navigation = [
 
 const education = {
     degrees: [
-        { degree: "Ph.D in Astrophysics", institution: "Peking University", year: "2024" },
-        { degree: "Bachelor of Science in Applied Physics", institution: "East China University of Science and Technology (ECUST)", year: "2018" },
-        { degree: "High School", institution: "Zhenhai High School (浙江省镇海中学)", year: "2014" }
+        { degree: "High School", institution: "Zhenhai High School & Qingtian High School (浙江省镇海中学 & 青田中学)", year: "2011-2014" },
+        { degree: "Bachelor of Science in Applied Physics", institution: "East China University of Science and Technology (ECUST)", year: "2014-2018" },
+        { degree: "Ph.D in Astrophysics", institution: "Peking University", year: "2018-2024" },
     ],
     additional: [
+        { type: "Teaching Assistant", name: "Stellar Structure and Evolution", year: "2020-2021, 2023" },
         { type: "Summer School", name: "CSST Summer School", year: "2022" },
-        { type: "N-body simulation winter school", name: "N-body simulation winter school", year: "2025" },
-        { type: "Teaching Assistant", name: "Stellar Structure and Evolution", year: "2020-2021, 2023" }
+        { type: "N-body simulation winter school", name: "N-body simulation winter school", year: "2025" }
+    ],
+    job:[
+        { type: "Postdoc Fellow", name: "Japan Society for the Promotion of Science (JSPS) fellow, working with Prof. Ken Ohsuga", year: "2024.08-2026.08" },
+        { type: "Postdoc Research", name: "Postdoc researcher, working with Prof. Ken Ohsuga", year: "2024.09-Now" }
     ]
 };
 
