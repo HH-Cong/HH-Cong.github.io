@@ -50,6 +50,12 @@ const research = {
     interests: "SuperMassive Black Holes (SMBHs), BH Accretion, Active Galactic Nuclei (AGN) Feedback, Co-evolution of SMBHs and Host Galaxies, Quasars, High Redshift Galaxies, AGN Outflow/Wind/Jet, Numerical Simulations (HD/GRRHD/RMHD)",
     publications: [
         {
+            title: "Clumpy Outflows from Super-Eddington Accreting Black Holes. II. Conditions for Clump Formation",
+            status: "Submitted to ApJ",
+            arxiv: "2610.24660",
+            url: "http://arxiv.org/abs/2610.24660"
+        },
+        {
             title: "Back to Normal Again: Possible Destinies of JWST overmassive SMBHs and “Little Red Dots” in the View of Shin-Uchuu Simulation",
             status: "Submitted to ApJ",
             arxiv: "2602.14496",
