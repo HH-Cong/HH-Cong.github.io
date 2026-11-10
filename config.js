@@ -43,6 +43,9 @@ const education = {
     job:[
         { type: "Postdoc Fellow", name: "Japan Society for the Promotion of Science (JSPS) fellow, working with Prof. Ken Ohsuga", year: "2024.08-2026.08" },
         { type: "Postdoc Researcher", name: "Postdoc researcher, working with Prof. Ken Ohsuga", year: "2026.09-Now" }
+    ],
+    association:[
+        { type: "The Astrophysical Society of Japan", name: "Full member",year: "2026"}
     ]
 };
 
@@ -206,9 +209,9 @@ const research = {
 const events = {
     upcoming: [
         {
-            title: "To be added",
-            type: "None",
-            date: "None",
+            title: "Clumpy Outflows from Super-Eddington Accreting Black Holes",
+            type: "Colloquium talk @ Tohoku University",
+            date: "Dec. 3rd",
             url: "None"
         },
     ],
@@ -492,6 +495,10 @@ const links = [
     {
         title: "Paper Reading Notes",
         url: "https://hhwonder4.notion.site/25d102dd8fb5808e8a54f1102ff49ac7?v=25d102dd8fb58062b982000c3c5bd29b"
+    },
+    {
+        title: "ASJ website",
+        url: "https://www.asj.or.jp/en/"
     }
     
 ];

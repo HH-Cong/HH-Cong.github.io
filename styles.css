@@ -215,6 +215,19 @@ li {
     line-height: 1.6;
 }
 
+/* Useful Links and International Collaborators */
+#links > ul,
+.international-collaborators {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+}
+
+#links > ul > li,
+.international-collaborators > li {
+    overflow-wrap: anywhere;
+}
+
 /* Links */
 a {
     color: #007bff;
