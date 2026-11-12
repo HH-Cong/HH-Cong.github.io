@@ -81,14 +81,14 @@ const research = {
         {
             title: "Supercritical Growth Pathway to Overmassive Black Holes at Cosmic Dawn: Coevolution with Massive Quasar Hosts",
             journal: "Astrophys. J. 935, 140 (2022)",
-            journalUrl: "https://iopscience.iop.org/article/10.3847/1538-4357/ac8166",
+            journalUrl: "hhttps://iopscience.iop.org/article/10.3847/1538-4357/ac7daa",
             arxiv: "2206.01215",
             url: "https://arxiv.org/pdf/2206.01215"
         },
         {
             title: "Long-term Evolution of Supercritical Black Hole Accretion with Outflows: A Subgrid Feedback Model for Cosmological Simulations",
             journal: "Astrophys. J. 934, 132 (2022)",
-            journalUrl: "https://iopscience.iop.org/article/10.3847/1538-4357/ac7daa",
+            journalUrl: "https://iopscience.iop.org/article/10.3847/1538-4357/ac75d8",
             arxiv: "2205.02842",
             url: "https://arxiv.org/pdf/2205.02842"
         },
@@ -102,7 +102,7 @@ const research = {
         {
             title: "Dynamics and Morphology of Cold Gas in Fast, Radiatively Cooling Outflows: Constraining AGN Energetics with Horseshoes",
             journal: "Astrophys. J. Lett. 917, L7 (2021)",
-            journalUrl: "https://iopscience.iop.org/article/10.3847/2041-8213/ac1173",
+            journalUrl: "https://iopscience.iop.org/article/10.3847/2041-8213/ac16d9",
             arxiv: "2106.10285",
             url: "https://arxiv.org/pdf/2106.10285"
         }
