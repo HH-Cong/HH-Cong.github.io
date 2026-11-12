@@ -81,7 +81,7 @@ const research = {
         {
             title: "Supercritical Growth Pathway to Overmassive Black Holes at Cosmic Dawn: Coevolution with Massive Quasar Hosts",
             journal: "Astrophys. J. 935, 140 (2022)",
-            journalUrl: "hhttps://iopscience.iop.org/article/10.3847/1538-4357/ac7daa",
+            journalUrl: "https://iopscience.iop.org/article/10.3847/1538-4357/ac7daa",
             arxiv: "2206.01215",
             url: "https://arxiv.org/pdf/2206.01215"
         },
